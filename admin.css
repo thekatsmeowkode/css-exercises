@@ -162,6 +162,7 @@ p {color:black;}
 .card_icons {
     display:flex;
     margin-left:auto;
+    gap: 5px;
 }
 
 .card_icons img {height:25px}
@@ -187,6 +188,27 @@ p {color:black;}
     align-self:center;
 }
 
-.trending {
+.trending_container {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    background-color:white;
+    display:grid;
+    
+}
+
+.trending_container {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    align-items:center;
+}
+
+.trending_item {
     display:flex;
+    gap:20px;
+}
+
+.trending_text {
+    font-size: smaller
 }
