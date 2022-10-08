@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="admin.css">
     <title>Admin Dashboard</title>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -16,11 +18,13 @@
             </div>
             <div class="alert_bar">
                 <img class="icon" class="button" src="bell-ring.svg" alt="ringing bell">
-                <img class="icon" class="button" src="avatar-svgrepo-com.svg" alt="woman avatar caucasian with brown hair and red shirt">
+                <img class="icon" class="button" src="avatar-svgrepo-com.svg"
+                    alt="woman avatar caucasian with brown hair and red shirt">
                 <p>Kat Munson</p>
             </div>
             <div class="info_bar">
-                <img id='big_avatar' src="avatar-svgrepo-com.svg" alt="woman avatar caucasian with brown hair and red shirt">
+                <img id='big_avatar' src="avatar-svgrepo-com.svg"
+                    alt="woman avatar caucasian with brown hair and red shirt">
                 <p><em>Hello!</em> <br> Kat Munson (@thekatsmeowkode)</p>
             </div>
             <div class="button_bar">
@@ -30,6 +34,14 @@
             </div>
         </div>
         <div class="sidebar">
+            <div id="sidebar_element">
+                <img class="icon" class="button" src="monitor-dashboard.svg" alt="icon with computer monitor">
+                <p id="sidebar_header_text">Dashboard</p>
+            </div>
+            <div id="sidebar_element">
+                <img class="icon" class="button">
+                <p></p>
+            </div>
             <div id="sidebar_element">
                 <img class="icon" class="button" src="home-city-outline.svg" alt="house icon">
                 <p>Home</p>
@@ -42,11 +54,47 @@
                 <img class="icon" class="button" src="message-fast-outline.svg" alt="message icon">
                 <p>Messages</p>
             </div>
-            
+            <div id="sidebar_element">
+                <img class="icon" class="button" src="clock-time-one-outline.svg" alt="clock icon">
+                <p>History</p>
+            </div>
+            <div id="sidebar_element">
+                <img class="icon" class="button" src="file-tree.svg" alt="icon with representation of information tree">
+                <p>Tasks</p>
+            </div>
+            <div id="sidebar_element">
+                <img class="icon" class="button" src="crowd.svg" alt="icon with image of crowd waving">
+                <p>Communities</p>
+            </div>
+            <div id="sidebar_element">
+                <img class="icon" class="button">
+                <p></p>
+            </div>
+            <div id="sidebar_element">
+                <img class="icon" class="button" src="cog.svg" alt="icon with image of gear">
+                <p>Settings</p>
+            </div>
+            <div id="sidebar_element">
+                <img class="icon" class="button" src="head-question.svg"
+                    alt="icon with image of head with question mark in middle">
+                <p>Support</p>
+            </div>
+            <div id="sidebar_element">
+                <img class="icon" class="button" src="shield-lock.svg" alt="icon with image of sheild">
+                <p>Privacy</p>
+            </div>
         </div>
         <div class="cards">
-            <div class="cardholder"> 
-                <div class="card"></div>
+            <p id="card_heading">Your Projects</p>
+            <div class="cardholder">
+                <div class="card">
+                    <p class="title_text">Episode 1</p>
+                    <p class="small_text">A group of three rangers went north of The Wall to investigate a report of wildlings being spotted in the Haunted Forest.</p>
+                    <div>
+                        <img class="icon" class="button" src="bookmark-plus.svg" alt="bookmark icon">
+                        <img class="icon" class="button" src="eye-plus.svg"
+                    </div>
+                </div>
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
@@ -55,11 +103,12 @@
                 <div class="card"></div>
                 <div class="card"></div>
             </div>
-            <div class="newsbar">
+            <!-- <div class="newsbar">
                 <div class="announcements"></div>
                 <div class="trending"></div>
-            </div>
+            </div> -->
         </div>
     </div>
 </body>
+
 </html>
