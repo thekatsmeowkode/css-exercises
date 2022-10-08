@@ -12,7 +12,7 @@
 
 .container {
     display: grid;
-    grid-template-rows: .25fr 3fr;
+    grid-template-rows: .5fr 3fr;
     grid-template-columns:1fr 4fr;
 }
 
@@ -124,8 +124,8 @@ p {color:black;}
 .cardholder {
     grid-area: 2 / 1 / 4 / 2;
     display:grid;
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, .5fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, .5fr));
     grid-gap: 10px;
 }
 
@@ -177,7 +177,7 @@ p {color:black;}
 }
 
 .announcement {
-    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 #card_heading3 {
