@@ -100,7 +100,8 @@ p {color:black;}
 }
 
 #sidebar_header_text {
-    font-size: 40px;
+    font-size: 50px;
+    color:var(--background-color)
 }
 
 #sidebar_element {
@@ -117,7 +118,7 @@ p {color:black;}
     background-color:var(--background-color);
     display:grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 20px 1fr 1fr
+    grid-template-rows: 30px .5fr 50px .5fr
 }
 
 .cardholder {
@@ -132,9 +133,15 @@ p {color:black;}
     grid-row: 1 / 2;
 }
 
+#card_heading2 {
+    grid-row: 1 / 2;
+    grid-column:2 / 3;
+}
+
 .small_text {
     font-size:10px;
     grid-row: 2 / 3;
+    color:gray;
 }
 
 .title_text {
@@ -158,3 +165,28 @@ p {color:black;}
 }
 
 .card_icons img {height:25px}
+
+.announcements_container {
+    grid-row:2 / 3;
+    grid-column: 2 / 3;
+    display:flex;
+    background-color:white;
+    margin-top:10px;
+    flex-direction:column;
+}
+
+.announcement {
+    border-bottom: 1px solid gray;
+}
+
+#card_heading3 {
+    display:grid;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    grid-gap:10px;
+    align-self:center;
+}
+
+.trending {
+    display:flex;
+}
