@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="search_bar">
-                <div class="search"></div>
-                <div class="icons"></div>
+                <div class="button"><img class='icon' src="card-search.svg" alt="magnifying glass"></div>
+                <div><input id='search' type="text"></div>
+            </div>
+            <div class="alert_bar">
+                <img class="icon" class="button" src="bell-ring.svg" alt="ringing bell">
             </div>
             <div class="info_bar">
                 <div class="intro"></div>
                 <div class="buttons"></div>
             </div>
         </div>
-        <div class="cards">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+        <div class="sidebar">
+
         </div>
-        <div class="newsbar">
-            <div class="announcements"></div>
-            <div class="trending"></div>
+        <div class="cards">
+            <div class="cardholder"> 
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <div class="newsbar">
+                <div class="announcements"></div>
+                <div class="trending"></div>
+            </div>
         </div>
     </div>
 </body>
